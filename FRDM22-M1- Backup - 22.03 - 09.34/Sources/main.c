@@ -119,7 +119,7 @@ for(;;) {
 
 	transmitData(ID,FC,AD,REG_NUM);
 	getData();
-//	verifyData();
+	verifyData();
 //	check_packet_status();
 //	red_Neg();
 

@@ -23,7 +23,7 @@ C_DEPS += \
 Static_Code/System/%.o: ../Static_Code/System/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross ARM C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/mauro/Desktop/FRDM22-M1- Backup - 17.03 - 17.36 - Copia - Copia - Copia/Static_Code/System" -I"C:/Users/mauro/Desktop/FRDM22-M1- Backup - 17.03 - 17.36 - Copia - Copia - Copia/Static_Code/PDD" -I"C:/Users/mauro/Desktop/FRDM22-M1- Backup - 17.03 - 17.36 - Copia - Copia - Copia/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/mauro/Desktop/FRDM22-M1- Backup - 17.03 - 17.36 - Copia - Copia - Copia/Sources" -I"C:/Users/mauro/Desktop/FRDM22-M1- Backup - 17.03 - 17.36 - Copia - Copia - Copia/Generated_Code" -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/mauro/Desktop/Nova pasta/FRDM22-M1- Backup - 22.03 - 09.34/Static_Code/System" -I"C:/Users/mauro/Desktop/Nova pasta/FRDM22-M1- Backup - 22.03 - 09.34/Static_Code/PDD" -I"C:/Users/mauro/Desktop/Nova pasta/FRDM22-M1- Backup - 22.03 - 09.34/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/mauro/Desktop/Nova pasta/FRDM22-M1- Backup - 22.03 - 09.34/Sources" -I"C:/Users/mauro/Desktop/Nova pasta/FRDM22-M1- Backup - 22.03 - 09.34/Generated_Code" -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
